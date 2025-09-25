@@ -18,7 +18,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Debug(export = true)
 @Mixin(MinecraftServer.class)
 public abstract class TutorialFirstMixin {
-	@Inject(at = @At("HEAD"), method = "loadWorld")
+	@Inject(method = "loadWorld",
+            at = @At(value = "HEAD")
+    )
 	private void addLoggerAtHead(CallbackInfo info) {
         GauntTutorialMod.LOGGER.info("MinecraftServer$loadWorld has started!");
 	}
