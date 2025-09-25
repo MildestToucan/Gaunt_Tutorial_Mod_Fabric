@@ -3,15 +3,15 @@
 	"id": "gaunt_tutorial_mod",
 	"version": "${version}",
 	"name": "Gaunt Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Some tutorial mod for Fabric Wiki purposes.",
 	"authors": [
-		"Me!"
+		"GauntRecluse"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://wiki.fabricmc.net/",
+		"sources": "https://github.com/MildestToucan/Gaunt_Tutorial_Mod_Fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/gaunt_tutorial_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {

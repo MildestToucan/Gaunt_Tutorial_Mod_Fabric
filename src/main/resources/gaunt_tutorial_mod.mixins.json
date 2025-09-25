@@ -3,7 +3,7 @@
 	"package": "net.gauntrecluse.gaunt_tutorial_mod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+        "TutorialFirstMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
